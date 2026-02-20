@@ -8,7 +8,7 @@ const testimonials = [
     author: "Sarah Chen",
     role: "CTO, Tech Innovators Inc.",
     avatar:
-      "public/uifaces-popular-avatar (2).jpg",
+      "/uifaces-popular-avatar (2).jpg",
   },
   {
     quote:
@@ -16,7 +16,7 @@ const testimonials = [
     author: "Michael Rodriguez",
     role: "Product Manager, Digital Solutions",
     avatar:
-      "public/uifaces-popular-avatar (1).jpg",
+      "/uifaces-popular-avatar (1).jpg",
   },
   {
     quote:
