@@ -28,7 +28,7 @@ const testimonials = [
   },
   {
     quote:
-      "Not only is Naxwell technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.",
+      "Not only is Maxwell technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.",
     author: "David Kim",
     role: "CEO, Innovation Hub",
     avatar:

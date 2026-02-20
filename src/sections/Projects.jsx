@@ -5,7 +5,7 @@ const projects = [
     title: "Fintech Dashboard",
     description:
       "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
+    image: "./project1.png",
     tags: ["React", "Typescript", "NodeJS"],
     link: "#",
     github: "#",
@@ -23,7 +23,7 @@ const projects = [
     title: "AI Writing Assistant",
     description:
       "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/public/project4.png",
+    image: "./public/project4.png",
     tags: ["React", "OpenAI", "Python", "FastAPI"],
     link: "#",
     github: "https://github.com/maxwell358",
