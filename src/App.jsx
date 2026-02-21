@@ -7,7 +7,6 @@ import { Projects } from "@/sections/Projects"
 import { Testimonials } from "@/sections/Testimonials"
 import { Contact } from "@/sections/Contact"
 import { Footer } from "./layout/Footer"
-import { Analytics } from "@vercel/analytics/next"
 
 
 
@@ -16,6 +15,7 @@ function App() {
   return (
     <div className="min-h-screen overflow-hidden">
    <Navbar />
+
    <main>
     
      <div id="hero" className="scroll-mt-20"><Hero /></div>
@@ -24,7 +24,6 @@ function App() {
       <div id="projects" className="scroll-mt-20"><Projects /></div>
       <div id="testimonials" className="scroll-mt-20"><Testimonials /></div>
       <div id="contact" className="scroll-mt-20"><Contact /></div>
-      <Analytics />
    </main>
    <Footer/>
 
