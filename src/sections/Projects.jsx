@@ -15,7 +15,7 @@ const projects = [
     description:
       "",
     image: "",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+    tags: ["Next.js", "Stripe", "PostgresSQL", "Tailwind"],
     link: "#",
     github: "#",
   },
@@ -32,7 +32,7 @@ const projects = [
     title: "",
     description:
       " ",
-    image: "",
+    image: " ",
     tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
     link: "#",
     github: "#",
@@ -75,13 +75,13 @@ export const Projects = () => {
               {/* Image */}
               <div className="relative overflow-hidden aspect-video">
                 <img
-                  src={project.image}
+                  src={project.image || null}
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div
                   className="absolute inset-0 
-                bg-gradient-to-t from-card via-card/50
+                bg-linear-to-t from-card via-card/50
                  to-transparent opacity-60"
                 />
                 {/* Overlay Links */}

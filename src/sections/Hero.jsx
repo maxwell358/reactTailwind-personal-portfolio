@@ -1,5 +1,5 @@
 import { Button } from "@/components/Button";
-import { ArrowBigRight,ChevronDown, ArrowRight, Download, icons,Github, Linkedin, Twitter } from "lucide-react";
+import { ChevronDown, ArrowRight, Download, Github, Linkedin, Twitter } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
@@ -8,7 +8,7 @@ const skills = [
   "TypeScript",
   "Node.js",
   "GraphQL",
-  "PostgreSQL",
+  "PostgresSQL",
   "Vercel",
   "Tailwind CSS",
   "Prisma",
@@ -22,7 +22,7 @@ export const Hero = () => {
         {/* Background image */ }
         <div className="absolute inset-0 z-0">
         <img src="/hero-bg.jpg" alt="Hero image " className="w-full h-full  object-cover opacity-40" />
-       <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/80 to-background "/>
+       <div className="absolute inset-0 bg-linear-to-b from-background/20 via-background/80 to-background "/>
         </div>
 
         {/* {Green Dots */ } 
@@ -63,7 +63,7 @@ export const Hero = () => {
         <br />
             <span className="font-serif italic font-normal text-white">precision</span>
     </h1>
-    <p className="text-lg text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">I build responsive, accessible, 
+    <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">I build responsive, accessible,
           and performant web applications using modern 
           JavaScript frameworks and tools.</p>
  </div>
@@ -100,7 +100,7 @@ export const Hero = () => {
      <div className="relative max-w-md mx-auto py-10">
          <div
                 className="absolute inset-5 
-              rounded-3xl bg-gradient-to-br 
+              rounded-3xl bg-linear-to-br
               from-primary/30 via-transparent 
               to-primary/30 blur-4xl animate "
               />
@@ -120,7 +120,7 @@ export const Hero = () => {
               </div>
         
         <div className="relative glass rounded-3xl p-19 glow-border " >
-            <img src="/pass.jpeg" alt="Maxwell" className="w-full aspect-[4/6] object-cover rounded-3xl" />
+            <img src="/pass.jpeg" alt="Maxwell" className="w-full aspect-4/6 object-cover rounded-3xl" />
         </div>
      </div>
    </div>
