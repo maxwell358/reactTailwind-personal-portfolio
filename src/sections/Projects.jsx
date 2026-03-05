@@ -20,12 +20,12 @@ const projects = [
     github: "#",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Smart AI resume analyzer",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/project4.png",
+      "a full-stack React Router app that analyzes resumes against a target role and returns structured ATS feedback with category scores and actionable tips.",
+    image: "/resume.png",
     tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
+    link: "https://ai-resume-analyzer-qrefaumd9-aisosaebohon-4139s-projects.vercel.app/",
     github: "https://github.com/maxwell358",
   },
   {

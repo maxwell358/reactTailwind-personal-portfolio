@@ -101,7 +101,7 @@ export const Testimonials = () => {
 
               <div className="flex items-center gap-4">
                 <img
-                  src={testimonials[activeIdx].avatar}
+                  src={testimonials[activeIdx].avatar || null}
                   alt={testimonials[activeIdx].author}
                   className="w-14 h-14 rounded-full object-cover ring-2 ring-primary/20"
                 />
