@@ -7,8 +7,7 @@ const testimonials = [
       "Maxwell is one of the most talented engineers I've worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
     author: "Sarah Chen",
     role: "CTO, Tech Innovators Inc.",
-    avatar:
-      "/uifaces-popular-avatar (2).jpg",
+
   },
   {
     quote:
@@ -16,7 +15,7 @@ const testimonials = [
     author: "Michael Rodriguez",
     role: "Product Manager, Digital Solutions",
     avatar:
-      "/uifaces-popular-avatar (1).jpg",
+      "",
   },
   {
     quote:
