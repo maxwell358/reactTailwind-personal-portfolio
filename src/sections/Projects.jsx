@@ -1,5 +1,7 @@
 import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
+import {lazy} from "react";
+
 const projects = [
   {
     title: "Fintech Dashboard",
@@ -27,6 +29,7 @@ const projects = [
     tags: ["React", "OpenAI", "Python", "FastAPI"],
     link: "https://ai-resume-analyzer-qrefaumd9-aisosaebohon-4139s-projects.vercel.app/",
     github: "https://github.com/maxwell358",
+    loading : lazy
   },
   {
     title: "",
