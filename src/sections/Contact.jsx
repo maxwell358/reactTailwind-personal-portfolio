@@ -1,4 +1,4 @@
-import {Mail, Phone, MapPin, Send, CheckCircle, AlertCircle } from "lucide-react";
+import {Mail, Phone, Send, CheckCircle, AlertCircle } from "lucide-react";
 import { Button } from "@/components/Button";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
@@ -16,12 +16,6 @@ const contactInfo = [
     label: "Phone",
     value: "+234 (904) 256-9555",
     href: "tel:+09042569555",
-  },
-  {
-    icon: MapPin,
-    label: "Location",
-    value: " Nigeria, Benin city",
-    href: "#",
   },
 ];
 
