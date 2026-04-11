@@ -14,12 +14,12 @@ const projects = [
     loading : lazy
   },
   {
-    title: "",
-    description: "",
-    image: "",
-    tags: [],
-    link: "#",
-    github: "#",
+    title: "ChapterChase",
+    description: "ChapterChase is an interactive web app that transforms uploaded PDF books into an AI-driven conversational experience. Users can securely upload and manage books, search through content, and engage with them through chat and voice features, making long-form reading more accessible, dynamic, and user-friendly.",
+    image: "/chapter.png",
+    tags: ["Next.js" ,"React","TypeScript", " Tailwind CSS ","Clerk authentication"," MongoDB/Mongoose ", "Vercel"],
+    link: "https://chapterchase-two.vercel.app/",
+    github: "https://github.com/maxwell358",
   },
   {
     title: "",
