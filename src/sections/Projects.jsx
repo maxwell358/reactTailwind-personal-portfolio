@@ -22,12 +22,12 @@ const projects = [
     github: "https://github.com/maxwell358",
   },
   {
-    title: "",
-    description: "",
-    image: "",
-    tags: [],
-    link: "#",
-    github: "#",
+    title: "Chronicle",
+    description: "Chronicle is a full-featured mobile blogging platform built with Apache Cordova, enabling users to write, publish, and discover blog posts directly from their phones. The app features a real-time feed powered by Firebase Firestore, letting readers see new content the moment it's published",
+    image: "/blog.png",
+    tags: ["Apache Cordova", "Firebase Firestore (real-time)","Firebase Authentication","Tailwind CSS (CDN), custom CSS", "Vercel", "Vanilla JavaScript (SPA), HTML5"],
+    link: "https://my-blog-chi-ten-74.vercel.app/",
+    github: "https://github.com/maxwell358",
   },
   {
     title: "",
